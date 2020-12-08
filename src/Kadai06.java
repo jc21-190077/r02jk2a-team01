@@ -11,9 +11,7 @@ public class Kadai06 {
 		int get2ndMax(int[] d) {
 
 			for(int i = 0; i < d.length-1; i++) {
-
 				for(int j = 0; j < d.length-i-1; j++) {
-
 					if(d[i] < d[j+1]) {
 						int min = d[j];
 						d[j] = d[j+1];
