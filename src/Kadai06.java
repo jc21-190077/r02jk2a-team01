@@ -12,7 +12,7 @@ public class Kadai06 {
 
 			for(int i = 0; i < d.length-1; i++) {
 				for(int j = 0; j < d.length-i-1; j++) {
-					if(d[i] < d[j+1]) {
+					if(d[j] < d[j+1]) {
 						int min = d[j];
 						d[j] = d[j+1];
 						d[j+1] = min;
